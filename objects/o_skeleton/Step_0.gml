@@ -1,8 +1,8 @@
-if keyboard_check(vk_right) and not place_meeting(x=4, y, o_wall)
+if keyboard_check(vk_right) and not place_meeting(x+4, y, o_wall)
 {
 	x += 4;
     image_xscale = 1;
-	sprite_index = s_skeleton_run_strip6
+	sprite_index = s_skeleton_run_strip6;
     image_speed = 0.6;
 }
 
