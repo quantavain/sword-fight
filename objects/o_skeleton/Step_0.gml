@@ -1,6 +1,13 @@
+
+switch (state)
+{
+	casee: "Move"
+	
+	break;
 if state == "move"
 {
-	if keyboard_check(vk_right) and not place_meeting(x+4, y, o_wall)
+    #region Move Sate
+    if keyboard_check(vk_right) and not place_meeting(x+4, y, o_wall)
 	{
 		x += 4;
 	    image_xscale = 1;
@@ -26,10 +33,21 @@ if state == "move"
 	    image_index = 0;
 		state = "roll"
 	}
-
+     #endregion
 if state == "roll"
 {	
 	sprite_index = s_skeleton_roll_strip7;
 	image_speed = 0.6;
-
+  #region Roll State 
 }
+  if image_xscale == 1 and not place_meeting(x+4,y,o_wall)
+  {
+	x+= 6;  
+  }  
+ 
+ if image_xscale == -1 and not place_meeting(x-4,y,o_wall)
+ {
+	 x -= 6;
+    }
+	#endregion
+	
