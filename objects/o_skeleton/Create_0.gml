@@ -1,3 +1,3 @@
 image_speed = 0.4;
-state = "Move"
+state = "move"
 show_debug_message(state)
