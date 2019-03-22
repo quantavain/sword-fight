@@ -50,10 +50,15 @@ switch (state)
 		#endregion
 		break;
 
+	case "attack one":
+	#region Attack One State
+	sprite_index = s_skeleton_attack_one_strip5
+	#endregion
+	break;
 }
-	
+	if keyboard_check(vk_lshift)
+	{
+		image_idex = 0;
+		state = "attack one";
 
-		
-
-	  
-	
+	}	  	
