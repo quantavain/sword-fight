@@ -2,9 +2,10 @@ switch (state)
 {
 	case "move":
 		#region Move State
-		if keyboard_check(vk_right) and not place_meeting(x+4, y, o_wall)
+		if keyboard_check(vk_right) 
+	
 		{
-			move_and_collide(4,0);
+			
 			x += 4;
 			image_xscale = 1;
 			sprite_index = s_skeleton_run_strip6;
