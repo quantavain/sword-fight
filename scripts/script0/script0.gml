@@ -1,3 +1,6 @@
+///@arg xspeed
+///@arg yspeed
+
 if not place_meeting(x+argument0, y, o_wall)
 	{
 	x +=  argument0;

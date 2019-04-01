@@ -43,12 +43,11 @@ switch (state)
 		{
 			x += 6;  
 		}  
- 
+		
 		if image_xscale == -1 and not place_meeting(x-4,y,o_wall)
 		{
 			x -= 6;
-		}
-		
+		}		
 		#endregion
 		break;
 
@@ -62,5 +61,9 @@ switch (state)
 	{
 		image_idex = 0;
 		state = "attack one";
-
-	}	  	
+	break;
+	 case "attack two":
+		#region Attack Two State
+		
+		#endregion
+		break;	

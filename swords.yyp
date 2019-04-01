@@ -135,6 +135,14 @@
             }
         },
         {
+            "Key": "4f7f2772-11c5-406c-8205-135900f8b6be",
+            "Value": {
+                "id": "0e682973-89d8-449b-b1fa-060bb019d84e",
+                "resourcePath": "scripts\\animation_hit_frame_range\\animation_hit_frame_range.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "5bf8b842-b18d-4977-9fad-1300063e5c2e",
             "Value": {
                 "id": "916b63f2-1248-4d34-b623-588ea41940fd",
@@ -312,7 +320,8 @@
         }
     ],
     "script_order": [
-        "0f22063f-66a7-445e-81da-a41ad9f6653f"
+        "0f22063f-66a7-445e-81da-a41ad9f6653f",
+        "4f7f2772-11c5-406c-8205-135900f8b6be"
     ],
     "tutorial": ""
 }
