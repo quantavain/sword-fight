@@ -52,18 +52,24 @@ switch (state)
 		break;
 
 	case "attack one":
-	#region Attack One State
-	sprite_index = s_skeleton_attack_one_strip5
-	#endregion
-	break;
-}
-	if keyboard_check(vk_lshift)
-	{
-		image_idex = 0;
-		state = "attack one";
-	break;
-	 case "attack two":
-		#region Attack Two State
+		#region Attack One State
+		sprite_index = s_skeleton_attack_two_strip5;
+		image_speed = 0.6;
 		
+		if keyboard_check_pressed(vk_lcontrol) and animation_hit_frame_range(2, 4)
+		{
+			image_index = 0;
+			state = "attack two";
+		}
 		#endregion
-		break;	
+		break;
+		
+		case "attack two":
+			#region Attack Two State
+			if sprite_index != s_skeleton_attack_two_strip5
+			sprite_index = s_skeleton_attack_two_strip5;
+			image_speed = 0.6;
+			image_speed = 0;
+			#endregion
+			break;
+}
