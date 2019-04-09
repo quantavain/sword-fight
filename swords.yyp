@@ -50,7 +50,7 @@
             "Key": "0f22063f-66a7-445e-81da-a41ad9f6653f",
             "Value": {
                 "id": "f68fb770-7679-4b99-9080-5494cf5d8804",
-                "resourcePath": "scripts\\script0\\script0.yy",
+                "resourcePath": "scripts\\move_and_collide\\move_and_collide.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -298,7 +298,7 @@
             "Key": "c5862a21-52d9-4b95-bf09-8943c3079be0",
             "Value": {
                 "id": "d695d9c6-1bca-4c39-ab0e-7047e5b4d0a9",
-                "resourcePath": "scripts\\state_set_sprite\\state_set_sprite.yy",
+                "resourcePath": "scripts\\set_state_sprite\\set_state_sprite.yy",
                 "resourceType": "GMScript"
             }
         },

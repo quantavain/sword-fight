@@ -1,3 +1,4 @@
 image_speed = 0.4;
 state = "move"
-show_debug_message(state)
+run_speed = 4;
+roll_speed
