@@ -34,17 +34,15 @@ switch (state)
 	
 	case "roll":
 		#region Roll State 
-		
-		image_speed = 0.6
-		
-		if image_xscale == 1 and not place_meeting(x+4,y,o_wall)
+		set_state_sprite(s_skeletin_roll,0.7,0);
+		if image_xscale == 1
 		{
-			x += 6;  
-		}  
-		
-		if image_xscale == -1 and not place_meeting(x-4,y,o_wall)
+		move_and_collide(roll_speed,0);
 		{
 		
+		if image_xscale == -1
+		{
+		 move_and_collide(-roll_speed,0);
 		}		
 		#endregion
 		break;
