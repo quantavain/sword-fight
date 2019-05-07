@@ -73,4 +73,3 @@ switch (state)
 			#region Attack Three State
 			set_state_sprite(s_skeleton_attack_three_strip6, 0.7, 0);
 			#endregion
-}
