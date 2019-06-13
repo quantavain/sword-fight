@@ -6,9 +6,9 @@ var new_speed = argument1;
 var new_index = argument2;
 
 
-if sprite_index != sprite
+if sprite_index != new_sprite
 {
-		sprite_index = sprite;
-		image_speed = speed;
-		image_index = index;
+		sprite_index = new_sprite;
+		image_speed = new_speed;
+		image_index = new_index;
 }

@@ -44,7 +44,7 @@ switch (state)
 		if image_xscale == 1
 		{
 		move_and_collide(roll_speed,0);
-		{
+		}
 		
 		if image_xscale == -1
 		{
@@ -79,3 +79,4 @@ switch (state)
 			#region Attack Three State
 			set_state_sprite(s_skeleton_attack_three_strip6, 0.7, 0);
 			#endregion
+}

@@ -4,4 +4,4 @@ run_speed = 4;
 roll_speed = 6;
 
 // Dependencies
-input = instance_create_layer(0, 0, "Instances" , o_input);
+input = instance_create_layer(1, 1, "Instances" , o_input);
